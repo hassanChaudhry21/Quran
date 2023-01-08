@@ -112,7 +112,7 @@ body{
 }
 .grid-items{
     display: flex;
-    
+    justify-content: center;
     padding-top: 50px;
     
 }
