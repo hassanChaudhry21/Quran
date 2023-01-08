@@ -112,9 +112,8 @@ body{
 }
 .grid-items{
     display: flex;
-    justify-content: center;
+    
     padding-top: 50px;
-    align-items: center;
     
 }
 .grid-1, .grid-2, .grid-3{
@@ -157,5 +156,7 @@ span{
 @media only screen and (max-width: 600px) {
     .grid-items{
     flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     }
