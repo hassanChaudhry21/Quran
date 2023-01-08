@@ -152,3 +152,9 @@ span{
     color: burlywood;
     padding-bottom: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+    .grid-items{
+    flex-direction: column;
+    }
+    }
